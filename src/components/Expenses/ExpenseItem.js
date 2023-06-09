@@ -3,8 +3,9 @@ import React from "react";
 import "./ExpenseItem.css";
 import Card from "../UI/Card";
 function ExpenseItem(props) {
+  let title = props.title;
   const clickHandler = () => {
-    console.log("Clicked!");
+    title = 'Updated!';
   };
 
   return (
