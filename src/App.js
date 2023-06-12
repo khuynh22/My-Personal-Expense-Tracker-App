@@ -16,13 +16,13 @@ const App = () => {
       id: "e3",
       title: "Eat Out",
       amount: 300,
-      date: new Date(2023, 6, 1),
+      date: new Date(2022, 6, 1),
     },
     {
       id: "e4",
       title: "Others",
       amount: 200,
-      date: new Date(2023, 6, 1),
+      date: new Date(2021, 6, 1),
     },
   ];
 
